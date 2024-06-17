@@ -1,12 +1,12 @@
 # Windows CLI 명령어 모음
 ```bash
-pwd
+pwd # 현재 경로를 알려줌줌
 
-ls
+ls #폴더안에 모든 파일보기
 
-cd
+cd # 현재 디렉터리에서 다른 디렉터리로 경로 변경 시 사용됨
 
-mkdir
+mkdir #원하는 이름의 폴더 생
 ```
 # Git 명령어 모음
 ```bash
