@@ -6,6 +6,10 @@ git add 파일명
 
 git commit -m "메모내용"
 
+git push origin main
+
+git clone 레포지토리URL
+
 ```
 > 파일명 일부만 작성 후 Tab을 누르면 자동 완성됨
 
