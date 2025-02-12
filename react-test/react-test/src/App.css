@@ -1,0 +1,150 @@
+/* src/App.css */
+
+/* 기본 스타일 */
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  text-decoration-line: none;
+  font-weight: bold;
+  color: #000;
+}
+
+/* 다크 모드 스타일 */
+
+body.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.header {
+  background-color: #fff;
+}
+
+.header.dark-mode {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+Nav a:hover {
+  color: #007bff;
+}
+
+body.dark-mode Nav a:hover {
+  color: white;
+}
+body.dark-mode a {
+  color: #e0e0e0;
+}
+
+body.dark-mode th {
+  background-color: #333;
+}
+
+body.dark-mode .nav a:hover {
+  color: #66b2ff;
+}
+
+.dropdown-menu {
+  background-color: #fff;
+}
+
+body.dark-mode .dropdown-menu {
+  background-color: #333;
+  color: #e0e0e0;
+}
+
+/* Signup.css */
+
+.form-group {
+  margin-bottom: 15px;
+  width: 100%;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input {
+  width: 100%;
+  padding: 8px;
+  box-sizing: border-box;
+}
+
+.button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.button:hover {
+  background-color: #404040;
+}
+
+/* Detection records page styles */
+.detection-records-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Global styles */
+.icons .icon {
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.content {
+  display: flex;
+  flex: 1;
+}
+
+.camera-selector {
+  width: 200px;
+  border-right: 1px solid #ccc;
+}
+
+.camera-selector ul {
+  list-style: none;
+  padding: 0;
+}
+
+.camera-selector li {
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #ccc;
+}
+
+.camera-selector li:hover {
+  background-color: #f0f0f0;
+}
+
+.camera-feed {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+iframe {
+  border: none;
+}

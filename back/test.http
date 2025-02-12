@@ -1,0 +1,14 @@
+GET http://host.docker.internal:8081/vapid-public-key
+###
+POST http://host.docker.internal:8081/login
+content-type: application/json
+
+{
+    "user_id": "string",
+    "user_pw": "string"
+}
+
+###
+GET http://host.docker.internal:8081/mounting
+###
+GET http://host.docker.internal:8081/mounting/174
